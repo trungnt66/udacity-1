@@ -74,7 +74,7 @@ def login():
         login_user(user, remember=form.remember_me.data)
         next_page = request.args.get('next')
         if not next_page or url_parse(next_page).netloc != '':
-            logger.warning('admin logged in successfully')
+            logger.info('admin logged in successfully')
             next_page = url_for('home')
         return redirect(next_page)
     session["state"] = str(uuid.uuid4())
