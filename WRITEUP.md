@@ -8,13 +8,15 @@
 - *Justify your choice*
 
 - App Service solution had easier workflow.
+  + App Service has easy deployment workflow, just connect to github repository and setup, without complex configuration like VM.
 - App service is cheaper when compare with VM.
-- VM has better scalability.
-
+  + With App Service for this project I just use 1gb linux plan with totally free cost.
 - I choose App Service solution instead of VM because:
   + Better cost.
+  + Deployment time is fast.
   + App is simple, I do not need to use VM.
   + Azure take care alot for security control.
+  + With App Service Azure take care alot of availability, with VM I need to has more responsbility for it.
 
 ### Assess app changes that would change your decision.
 
